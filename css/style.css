@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,100&family=Roboto:ital,wght@0,300;1,400&display=swap');
 
-/*fuente
-font-family: 'Roboto', sans-serif;
-font-family: 'Lato', sans-serif;*/
+
 * {
     margin: 0;
     padding: 0;
@@ -599,24 +597,24 @@ input[type="radio"].player1, input[type="radio"].player2{
 .radio-label1, .radio-label2 {
     display: inline-block;
     cursor: pointer;
-    padding: 5px; /* Ajusta el espacio alrededor de la imagen según tus necesidades */
+    padding: 5px; 
     
 }
 .radio-label1 img, .radio-label2 img {
-    width: 60px; /* Ajusta el tamaño de las imágenes según tus preferencias */
+    width: 60px; 
     height: 60px;
-    margin-right: 10px; /* Añade espacio entre la imagen y el texto */
+    margin-right: 10px; 
 }
 
 /* Estilo para cuando el radio esté seleccionado */
 input[type="radio"].player1:checked + label.radio-label1 img {
-    opacity: 0.2; /* Reduce la opacidad de la imagen cuando está seleccionada */
-    pointer-events: none; /* Deshabilita la interacción con la imagen */
+    opacity: 0.2; 
+    pointer-events: none;
 }
 /* Estilo para cuando el radio del player2 esté seleccionado */
 input[type="radio"].player2:checked + label.radio-label2 img {
-    opacity: 0.2; /* Reduce la opacidad de la imagen cuando está seleccionada */
-    pointer-events: none; /* Deshabilita la interacción con la imagen */
+    opacity: 0.2; 
+    pointer-events: none; 
 }
 
 .main-game{
@@ -680,26 +678,26 @@ h1.font-body{
 }
 
 
-/* Estilo para el botón "Jugar" */
+
 button[type="submit"], #reiniciar-juego {
-    background-color: #ff22bb; /* Cambia el color de fondo del botón */
+    background-color: #ff22bb; 
     color: white;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
     font-size: 20px;
     cursor: pointer;
-    margin-bottom: 10px; /* Añade espacio superior */
+    margin-bottom: 10px; 
 }
 
 button[type="submit"]:hover {
-    background-color: #8f2471; /* Cambia el color de fondo al pasar el cursor sobre el botón */
+    background-color: #8f2471; 
 }
 
-/*Estilo para el boton de reiniciar*/
+
 #reiniciar-juego {
     position:absolute;
-    background-color: #ff22bb; /* Cambia el color de fondo del botón */
+    background-color: #ff22bb;
     color: white;
     border: none;
     border-radius: 5px;
